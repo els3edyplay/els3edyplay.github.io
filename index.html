@@ -28,25 +28,12 @@ html{
 <div style="text-align:center">
 <button onclick="load_exploit(); return false"> Carregar Exploração </button> >> 
 <button onclick="load_HEN(); return false"> Carregar  HEN </button> ou 
-<button onclick="load_exploit_HEN(); return false"> Carregar Exploração + Hen Juntos </button>
-<br><br>
-<button onclick="load_exploit_miraUnoff(); return false"> Carregar Exploração + Mira (Não oficial) Juntos</button>
-<br><br><br>
+<button onclick="load_exploit_HEN(); return false"> Carregar Exploração + Hen 
 <h1 style='font-size:18px;text-align:center;'>PAYLOADS</h1>
-<button onclick="load_binloader(); return false"> Bin Loader </button>
-<button onclick="load_ftp(); return false"> FTP </button>
-<button onclick="load_dumper(); return false"> Dumper </button>
-<button onclick="load_linux(); return false"> Linux </button>
-<button onclick="load_app2usb(); return false"> App2USB </button>
-<button onclick="load_kerneldump(); return false"> Kernel Dumper </button>
-<button onclick="load_webrte(); return false"> WebRTE </button>
 <br><br>
-<button onclick="load_todex(); return false"> ToDEX </button>
-<button onclick="load_historyblock(); return false"> History Blocker </button>
+
 <button onclick="load_updatesdisable(); return false"> Disable Updates </button>
 <button onclick="load_updatesenable(); return false"> Enable Updates </button>
-<button onclick="load_dbBackup(); return false"> DB Backup </button>
-<button onclick="load_dbRestore(); return false"> DB Restore </button>
 <br><br><br>
 <button onclick="load_fanthresh(); return false"> Definir limite do ventilador </button><select id="tempC"></select>&#176;C<br>A TEMPERATURA PADRÃO DO PS4 É 79&#176;C
 <script>
@@ -69,7 +56,7 @@ setTimeout(jailbreak,500);
 
 function load_exploit_HEN(){
 msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Carregando Exploit + HEN ...</h1>";
-LoadedMSG="Exploit + HEN Carregado ✔";ExploitMira="HEN";MiraSRC="pl_HEN.js";
+LoadedMSG="Exploit + HEN els3edy ✔";ExploitMira="HEN";MiraSRC="pl_HEN.js";
 setTimeout(jailbreak,500);
 }
 
@@ -93,7 +80,7 @@ var script = document.createElement('script');script.src = "exp_loader.js";docum
 
 function load_HEN(){
 msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Carregando HEN ...</h1>";
-LoadedMSG="HEN Carregado ✔";
+LoadedMSG="HEN els3edy ✔";
 var script = document.createElement('script');script.src = "pl_HEN.js";document.getElementsByTagName('head')[0].appendChild(script);
 var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
 }
@@ -170,14 +157,14 @@ var script = document.createElement('script');script.src = "exp_loader.js";docum
 
 function load_updatesdisable(){
 msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Carregando Desabilitar Updates ...</h1>";
-LoadedMSG="Desabilitar Updates Carregado ✔";
+LoadedMSG="Desabilitar Updates disable ✔";
 var script = document.createElement('script');script.src = "pl_updatesDisable.js";document.getElementsByTagName('head')[0].appendChild(script);
 var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
 }
 
 function load_updatesenable(){
 msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Carregando Habilitar Updates ...</h1>";
-LoadedMSG="Habilitar Updates Carregado ✔";
+LoadedMSG="Habilitar Updates enable ✔";
 var script = document.createElement('script');script.src = "pl_updatesEnable.js";document.getElementsByTagName('head')[0].appendChild(script);
 var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
 }
